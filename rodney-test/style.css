@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 body {
-  background-color: hsl(175, 20%, 61%);
+  background-color: hsl(275, 30%, 11%);
+}
+h1 {
+  color: hsl(10, 50%, 90%);
+  font-size: 60px;
+  font-family: 'Dancing Script', 'sans serif';
 }
 
 p {
   color: hsl(235, 63%, 40%);
+}
+.hello {
+  color: hsl(260, 30%, 60%);
+  font-size: 30px;
+  line-height: 1.6;
 }
 figcaption {
   color: hsl(235, 63%, 40%);
