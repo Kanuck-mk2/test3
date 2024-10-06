@@ -3,6 +3,8 @@
 
 body {
   background-color: hsl(275, 30%, 11%);
+  display: flex;
+  
 }
 h1 {
   color: hsl(10, 50%, 90%);
