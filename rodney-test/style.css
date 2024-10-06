@@ -13,9 +13,6 @@ h1 {
 }
 
 p {
-<<<<<<< HEAD
-  color: hsl(265, 63%, 40%);
-=======
   color: hsl(235, 63%, 40%);
   font-family: 'Honk', 'sans serif';
   font-size: 25px;
@@ -24,7 +21,6 @@ p {
   color: hsl(260, 30%, 60%);
   font-size: 30px;
   line-height: 1.6;
->>>>>>> 9427991f6624ee0b577f9621db52643bb633c580
 }
 figcaption {
   color: hsl(265, 63%, 40%);
