@@ -21,7 +21,8 @@ p {
   font-size: 25px;
 }
 .hello {
-  color: hsl(260, 30%, 60%);
+  color: hsl(260, 75%, 38%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
   font-size: 30px;
   line-height: 1.6;
 }
