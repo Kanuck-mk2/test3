@@ -4,16 +4,16 @@
 body {
   background-color: hsl(200, 30%, 51%);
   display: flex;
-},
+}
 h1 {
   color: hsl(10, 50%, 90%);
   font-size: 60px;
   font-family: 'Dancing Script', 'sans serif'; /*adding a font family */
-},
+}
 h2 {
   color: hsl(10, 50%, 90%);
   font-size: 40px;
-},
+}
 
 p {
   color: hsl(235, 63%, 40%);
@@ -24,7 +24,7 @@ p {
   color: hsl(260, 30%, 60%);
   font-size: 30px;
   line-height: 1.6;
-},
+}
 figcaption {
   color: hsl(265, 63%, 40%);
-},
+}
