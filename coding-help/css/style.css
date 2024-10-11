@@ -4,12 +4,23 @@
 body {
     background-image: linear-gradient(hsl(234, 82%, 69%),hsl(122, 60%, 80%));
     background-image: no-repeat;
-
 }
-h1 {font-size: 50px; color: rgb(34, 61, 58);} 
-h2 {font-size: 40px; color: rgb(34, 61, 58);}
-p  {font-size: 20px; color: rgb(104, 67, 109);}
-a  {font-size: 20px; text-decoration:none;}
+h1 {
+font-size: 50px;
+ color: rgb(34, 61, 58);
+} 
+h2 {
+font-size: 40px; 
+color: rgb(34, 61, 58);
+}
+p  {
+font-size: 20px; 
+color: rgb(104, 67, 109);
+}
+a  {
+font-size: 20px;
+text-decoration:none;
+}
 
 
 /*Descendant Selectors*/

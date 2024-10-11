@@ -1,4 +1,4 @@
-const cousins = [
+const couzins = [
   {
     name: 'rodney',
     age: 19,
