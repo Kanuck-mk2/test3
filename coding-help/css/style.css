@@ -1,0 +1,14 @@
+
+/*Element Selectors*/
+
+body {background-color:cadetblue;}
+h1 {font-size: 50px; color: rgb(34, 61, 58);} 
+h2 {font-size: 40px; color: rgb(34, 61, 58);}
+p  {font-size: 20px; color: rgb(104, 67, 109);}
+a  {font-size: 20px; text-decoration:none;}
+
+
+/*Descendant Selectors*/
+
+nav ul li {list-style: none;}
+nav ul li a:hover {font-size: 22px; color: blueviolet;}
