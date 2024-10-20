@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <a id="header"></a>
+    <div id="main-container">
+      main container
+      <h1>Position Practice</h1>
+
+      <div id="imageGallery">
+        image gallery container
+        <img src="/images/cherry-blossom-lake.jpg" alt="lake" class="image"/>
+      </div>
+
+      <div id="buttonContainer">
+        button container
+        <button type="button" id="prevBtn">Previous</button>
+        buttons
+        <button type="button" id="nextBtn">Next</button>
+      </div>
+
+      <div id="text-container">
+        text container
+        <h3>
+          <b
+            >Use the parent element containers to move child elements as whole,
+            child elements can be moved individually</b
+          >
+        </h3>
+        <pre>
+create as many div container elements 
+             with child elements 
+             (text, buttons,images, etc) and use css 
+             to position them around the DOM
+      </pre
+        >
+      </div>
+
+      <div id="containers-row">
+        div container
+        <div id="recipe-container">
+          <button type="button" id="toggleIngredientsBtn">Toggle</button>
+          <div>
+            <h4>box1</h4>
+            <ul id="ingredientsList">
+              <!-- Your ingredients list here -->
+            </ul>
+          </div>
+        </div>
+        <div id="direction-container">
+          <button type="button" id="toggleDirectionsBtn">Toggle</button>
+          <div>
+            <h4>box2</h4>
+            <ol id="directionsList">
+              <!-- Your directions list here -->
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div id="footer-container"> footer container
+        
+        <a href="#header" class="toTop">Return to top</a>
+      </div>
+    </div>
+  </body>
+</html>
