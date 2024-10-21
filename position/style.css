@@ -1,0 +1,208 @@
+/* Global styles */
+body {
+  background-color: hsl(0, 0%, 0%); /* Black background */
+}
+
+/* Heading styles */
+h1 {
+  color: hsl(0, 30%, 96%); /* Light gray text */
+  text-align: center;
+}
+
+h3 {
+  color: hsl(200, 77%, 58%); /* Blue color using HSL */
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+}
+
+pre {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Text styles */
+p {
+  margin: 10px 0;
+  color: hsl(0, 0%, 100%); /* White text */
+}
+
+a {
+  border: 2px solid hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%); /* White text */
+  margin: 10px 0;
+}
+
+/* Containers */
+#main-container,
+#imageGallery,
+#text-container,
+#buttonContainer,
+#containers-row,
+#direction-container,
+#recipe-container {
+  border-radius: 8px; /* Rounded corners */
+}
+
+#main-container {
+  color: aliceblue;
+
+  position: relative;
+  width: max-content;
+  height: max-content;
+
+  border: 2px solid hsl(290, 66%, 46%); /* Light blue border using HSL */
+
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+}
+#main-container:hover {
+  box-shadow: 0 0 012px 3px hsl(290, 66%, 46%);
+}
+
+#imageGallery {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  width: 650px;
+  height: 350px;
+  /* Red border using HSL */
+  margin-left: 275px;
+  transition: transform 0.3s ease-in-out;
+}
+#imageGallery:hover {
+  border: 2px solid hsl(0, 83%, 55%);
+  box-shadow: 0 0 12px 3px hsl(0, 83%, 55%);
+  transform: scale(1.05);
+}
+.image {
+  margin: 0px;
+  flex-wrap: wrap;
+  margin-left: -90px;
+  border: 3px solid hsl(200, 77%, 58%);
+  border-radius: 8px;
+
+  transition: transform 0.3s ease-in-out;
+}
+.image:hover {
+  box-shadow: 0 0 12px 3px hsl(200, 77%, 58%);
+  transform: scale(1.05);
+}
+
+#text-container {
+  background: hsl(248, 50%, 39%); /* Slate blue background using HSL */
+  border-radius: 8px;
+  align-items: center;
+  border: 2px solid hsl(0, 0%, 100%); /* White border */
+  padding: 10px;
+  margin: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 1000px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+#text-container:hover {
+  box-shadow: 0 0 12px 3px hsl(0, 0%, 100%);
+  transform: scale(1.05);
+}
+
+#buttonContainer {
+  background-color: hsl(249, 60%, 70%); /* Light purple background using HSL */
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  border: 2px solid hsl(0, 0%, 100%); /* White border */
+  margin-top: 50px;
+  margin-left: 475px;
+  transition: transform 0.3s ease-in-out;
+}
+#buttonContainer:hover {
+  box-shadow: 0 0 12px 3px hsl(0, 0%, 100%);
+  transform: scale(1.05);
+}
+
+#buttonContainer button {
+  border: 2px solid hsl(0, 0%, 0%); /* Black border */
+  border-radius: 8px;
+}
+
+#containers-row {
+  color: aliceblue;
+  padding: 1px;
+  /* Blue border using HSL */
+
+  width: 1200px;
+
+  height: 350px;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+}
+#containers-row:hover {
+  border: 2px solid hsl(240, 100%, 50%);
+  box-shadow: 0 0 12px 3px hsl(240, 100%, 50%);
+  transform: scale(1.05);
+}
+
+#direction-container {
+  border: 2px solid hsl(0, 100%, 50%); /* Red border using HSL */
+  border-radius: 8px;
+
+  width: 350px;
+  height: 320px;
+  margin-top: 10px;
+  margin-right: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+#direction-container:hover {
+  box-shadow: 0 0 12px 3px hsl(0, 100%, 50%);
+  transform: scale(1.05);
+}
+
+#recipe-container {
+  border: 2px solid hsl(0, 0%, 100%);
+
+  border-radius: 8px;
+  width: 350px;
+  height: 320px;
+  margin-top: 10px;
+  margin-left: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+#recipe-container:hover {
+  box-shadow: 0 0 12px 3px hsl(0, 0%, 100%);
+  transform: scale(1.05);
+}
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+
+  padding: 20px;
+
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#footer-container:hover {
+  border: 2px solid hsl(84, 100%, 59%);
+  box-shadow: 0 0 12px 3px hsl(84, 100%, 59%);
+  transform: scale(1.05);
+}
+.toTop {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(200, 77%, 58%);
+  border-radius: 8px;
+}
