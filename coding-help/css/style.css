@@ -3,7 +3,7 @@
 
 body {
     background-image: linear-gradient(hsl(234, 82%, 69%),hsl(122, 60%, 80%));
-    background-image: no-repeat;
+    background-image:repeating-linear-gradient(repeating-linear-gradient);
 }
 h1 {
     font-size: 50px;
@@ -22,8 +22,11 @@ a  {
     text-decoration:none;
 }
 
-
 /*Descendant Selectors*/
 
-nav ul li {list-style: none;}
-nav ul li a:hover {font-size: 22px; color: blueviolet;}
+nav ul li {
+    list-style: none;
+}
+nav ul li a:hover {
+    font-size: 22px; 
+    color: blueviolet;}
